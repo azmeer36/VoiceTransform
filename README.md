@@ -71,24 +71,24 @@ To run this app locally, you will need:
    cd voice-transform
 
 2. **Install Dependencies:**
-  *** For Frontend ***
+  =For Frontend 
 
-    ```bash
-    cd frontend
-    npm install
-    npm start
-    
-  *** For Backend ***
+      ```bash
+      cd frontend
+      npm install
+      npm start
 
-    ```bash
-    pip install -r requirements.txt
-    python Flask_Server.py
+  =For Backend
 
-3. **Set up API Keys:**
+      ```bash
+      pip install -r requirements.txt
+      python Flask_Server.py
+
+4. **Set up API Keys:**
    ***Add your OpenAI API Key and Google Cloud JSON key to a .env file in the backend.***
 
 
-4. **Run the app:**
+5. **Run the app:**
   -Upload your audio file via the web interface.
   -Select the language you want to translate the speech into.
   -Click on "Transform" and wait for the processing to complete.
