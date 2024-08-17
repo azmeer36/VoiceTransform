@@ -1,6 +1,6 @@
 # Voice Transform
 
-![Voice Transform UI](path_to_your_image_here)
+![Voice Transform UI](https://github.com/user-attachments/assets/3ebee7dd-3777-42e3-981c-208cd89c7c92)
 
 Voice Transform is an innovative web app that allows you to convert speech from one language to another, transforming audio files into different languages with ease. Upload an MP3 audio file in any language, and the app will generate a translated MP3 file in the desired language. 
 
@@ -60,7 +60,7 @@ To run this app locally, you will need:
 - **Node.js and npm** (for the React frontend)
 - **Python 3.7+** (for the Flask backend)
 - **OpenAI API Key** (for WhisperAI and `tts-1` model)
-- **Google Cloud API Key** (for Translation API)
+- **Google Cloud API Key/Service Account JSON Key** (for Translation API)
 
 ### Installation
 
@@ -71,28 +71,28 @@ To run this app locally, you will need:
    cd voice-transform
 
 2. **Install Dependencies:**
-  =For Frontend 
+- ***For Frontend***:
 
-      ```bash
+      
       cd frontend
       npm install
       npm start
 
-  =For Backend
+- ***For Backend***:
 
-      ```bash
+      
       pip install -r requirements.txt
       python Flask_Server.py
 
 4. **Set up API Keys:**
-   ***Add your OpenAI API Key and Google Cloud JSON key to a .env file in the backend.***
+- Add your OpenAI API Key and Google Cloud Service Account JSON key to a .env file in the backend.
 
 
 5. **Run the app:**
-  -Upload your audio file via the web interface.
-  -Select the language you want to translate the speech into.
-  -Click on "Transform" and wait for the processing to complete.
-  -Download the translated speech in your desired language as an MP3 file.
+- Upload your audio file via the web interface.
+- Select the language you want to translate the speech into.
+- Click on "Transform" and wait for the processing to complete.
+- Download the translated speech in your desired language as an MP3 file.
 
    
 
