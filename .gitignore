@@ -3,3 +3,11 @@
 __pycache__/
 
 googlekey.json
+
+# React
+front_end/node_modules
+front_end/.pnp
+front_end/.pnp.js
+front_end/coverage
+front_end/build
+
