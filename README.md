@@ -1,6 +1,6 @@
 # Voice Transform
 
-![Voice Transform UI](https://github.com/user-attachments/assets/3ebee7dd-3777-42e3-981c-208cd89c7c92)
+![Voice Transform UI](https://github.com/user-attachments/assets/16de7dfc-dc9c-45a2-b7d2-c00c9c7b6c42)
 
 Voice Transform is an innovative web app that allows you to convert speech from one language to another, transforming audio files into different languages with ease. Upload an MP3 audio file in any language, and the app will generate a translated MP3 file in the desired language. 
 
